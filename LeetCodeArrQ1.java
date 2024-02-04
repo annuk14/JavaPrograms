@@ -15,7 +15,8 @@ public class LeetCodeArrQ1 {
 	}
 	
 	/**
-	 * Program to move all zeroes to the end maintaining relative order of elements of an array
+	 * LeetCode problem:283 Moves zeroes
+	 * 
 	 */
 	
 	public static void moveAllZeroes(int a[]) {
