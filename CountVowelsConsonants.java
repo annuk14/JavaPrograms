@@ -1,13 +1,20 @@
 package JavaPrograms;
 
+
 public class CountVowelsConsonants {
 
 	public static void main(String[] args) {
 
 		countVowConDigiSc("geeks for geeks121");
-		System.out.println(isConsonant('b'));
 	}
 	
+	
+
+/**
+ * Program to count vowels,Consonants,digits and special characters
+ */
+	//@Tc:O(n)
+	//@AS:O(1)
 	public static void countVowConDigiSc(String s) {
 		int vC=0;
 		int cC=0;
@@ -54,10 +61,6 @@ public class CountVowelsConsonants {
 	}
 
 	
-public static boolean isConsonant(char ch) {
-		
-		return (!(ch=='a' || ch=='e' || ch=='i' ||ch=='o' ||ch=='u'  || ch=='A' ||ch=='E' ||ch=='I' ||ch=='O' ||ch=='U')) ;
-				
-	}
+
 	
 }
