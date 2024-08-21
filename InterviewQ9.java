@@ -1,14 +1,21 @@
 package JavaPrograms;
 
 public class InterviewQ9 {
+	
+	/**
+	 * Program to replace every uppercase into same lowercase letter
+	 */
 
+	
 	public static void main(String[] args) {
 
 		replace("Hello Interview is Going On Now");
 		replaceCase("Hello Interview is Going On Now");
 	}
 	
-	public static void replace(String s) {
+	//1st way:
+	//@output:hello interview is going on now
+     public static void replace(String s) {
 		
 		String output="";
 		for(int i=0;i<s.length();i++) {
@@ -23,6 +30,7 @@ public class InterviewQ9 {
 		
 	}
 	
+    //2nd way: 
 	public static void replaceCase(String s) {
 		
 		String output="";
